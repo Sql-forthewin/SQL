@@ -1,0 +1,20 @@
+create table store (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, quantity INTEGER );
+INSERT into store VALUES (1, "oranges", .50, 4);
+INSERT into store VALUES (2, "lemons" , .50, 2);
+INSERT into store VALUES (3, "soda water" , 2, 5);
+INSERT into store VALUES (4, "limes" , .75, 3);
+INSERT into store VALUES (5, "cucumbers" , 1, 2);
+INSERT into store VALUES (6, "jalepenos" , .50,5);
+INSERT into store VALUES (7, "hot sauce" , 2, 1);
+INSERT into store VALUES (8, "pack of water" , 5, 1);
+INSERT into store VALUES (9, "hat" , 15, 1);
+INSERT into store VALUES (10, "yogurt" , 3, 1);
+INSERT into store VALUES (11, "orange juice", 5, 1);
+INSERT into store VALUES (12, "soda" , 2, 1);
+INSERT into store VALUES (13, "candy" , 2, 1);
+INSERT into store VALUES (14, "gum" , 2, 1);
+INSERT into store VALUES (15, "chocolate" , 2.50, 1);
+
+--display the database ordered by price. 
+SELECT * FROM store
+ORDER BY price desc; 
